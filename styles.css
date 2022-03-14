@@ -22,7 +22,7 @@ body{
     #caja1{
 
         width: 80%;
-        height: 80vh;
+        height: 100%;
         margin: 0 auto;
         position: relative;
     
@@ -39,15 +39,11 @@ body{
 
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-template-rows: 50%;
     
 
     vertical-align: middle;
 
-        width: 100%;
-        height: 76vh;
-        
-        margin-top: 25px;
+        width: 100%;        
         margin-bottom: 25px;
         margin-left: auto;
         margin-right: auto;
@@ -59,7 +55,7 @@ body{
  #botones{
 
 
-
+    /*margin-top: 20px;*/
     width: 75%;
     height: 100%;
     margin:0 auto;
@@ -92,7 +88,7 @@ body{
     #caja1{
 
         width: 80%;
-        height: 1000px;
+        height: 100%;
         margin: 0 auto;
         
     
@@ -110,7 +106,7 @@ body{
        display: grid;
        grid-template-columns: 100%;
        grid-template-rows: 30% 30% 30%;
-       row-gap: 10px;
+       row-gap: 5px;
 
        
    
@@ -122,10 +118,9 @@ body{
            margin-bottom: 3px;
            margin-left: auto;
            margin-right: auto;
-   
-   
     }
    
+    
    
     #botones{
    
